@@ -9,10 +9,6 @@ a{
     text-decoration: none;
 }
 
-a:visited{
-    color: #3d3d3d;
-}
-
 section{
     width: 100%;
     padding: 20px 0;
@@ -105,9 +101,11 @@ main{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
 }
+
+
 
 .txt h2{
     font-size: 30px;
@@ -225,5 +223,3 @@ footer{
     color: #2f4858;
     font-weight: bold;
 }
-
-/* Quartos */

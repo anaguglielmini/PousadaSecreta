@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Topo */
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #1d9e84;
+}
+
+.secao-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    color: #3d3d3d;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.logo span{
+    color: #1d65ec;     
+}
+
+.secao-topo nav{
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+.secao-topo nav a{
+    margin: 0 10px;
+}
+
+.txt{
+    margin: 15px auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.txt h1{
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.txt h2{
+    font-size: 30px;
+    font-weight:lighter;
+    padding: 20px;
+}
+
+.txt p{
+    padding-bottom: 10px;
+}
+
+/* Quartos */
+
+.banner{
+    margin-top: 60px;
+    background-image: url('../img/img-fundo.jpg');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 20vh;
+}
+
+.quarto{
+    margin: 10px auto;
+    padding: 20px;
+    width: 80vw;
+}
+
+.box-imgs{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box-imgs img{
+    width: 481px;
+    height: 289px;
+}
+
+.txt-quarto{
+    font-weight: 300;
+}
+
+.txt-quarto h2{
+    margin: 20px auto;
+    margin: 22px;
+}
+
+
+.txt-quarto ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+  
+.txt-quarto ul li {
+    width: 230px;
+    text-align: left;
+  } 
+
+/* Rodapé */
+
+footer{
+    background-color: #1d9e84;
+}
+
+.container-contatos{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.container-contatos .card, .container-contatos a{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: #fff;
+    align-items: center;
+}
+
+.container-contatos img{
+    margin: 20px;
+}
+
+.copyright p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.copyright p:first-of-type{
+    border-top: 1px solid #3d3d3d;
+}
+
+.copyright span{
+    color: #2f4858;
+    font-weight: bold;
+}
